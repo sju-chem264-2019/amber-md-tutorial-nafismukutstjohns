@@ -1,0 +1,728 @@
+# Grace project file
+#
+@version 50125
+@page size 792, 612
+@page scroll 5%
+@page inout 5%
+@link page off
+@map font 8 to "Courier", "Courier"
+@map font 10 to "Courier-Bold", "Courier-Bold"
+@map font 11 to "Courier-BoldOblique", "Courier-BoldOblique"
+@map font 9 to "Courier-Oblique", "Courier-Oblique"
+@map font 4 to "Helvetica", "Helvetica"
+@map font 6 to "Helvetica-Bold", "Helvetica-Bold"
+@map font 7 to "Helvetica-BoldOblique", "Helvetica-BoldOblique"
+@map font 5 to "Helvetica-Oblique", "Helvetica-Oblique"
+@map font 14 to "NimbusMonoL-BoldOblique", "NimbusMonoL-BoldOblique"
+@map font 15 to "NimbusMonoL-Regular", "NimbusMonoL-Regular"
+@map font 16 to "NimbusMonoL-RegularOblique", "NimbusMonoL-RegularOblique"
+@map font 17 to "NimbusRomanNo9L-Medium", "NimbusRomanNo9L-Medium"
+@map font 18 to "NimbusRomanNo9L-MediumItalic", "NimbusRomanNo9L-MediumItalic"
+@map font 19 to "NimbusRomanNo9L-Regular", "NimbusRomanNo9L-Regular"
+@map font 20 to "NimbusRomanNo9L-RegularItalic", "NimbusRomanNo9L-RegularItalic"
+@map font 21 to "NimbusSansL-Bold", "NimbusSansL-Bold"
+@map font 22 to "NimbusSansL-BoldCondensed", "NimbusSansL-BoldCondensed"
+@map font 23 to "NimbusSansL-BoldCondensedItalic", "NimbusSansL-BoldCondensedItalic"
+@map font 24 to "NimbusSansL-BoldItalic", "NimbusSansL-BoldItalic"
+@map font 25 to "NimbusSansL-Regular", "NimbusSansL-Regular"
+@map font 26 to "NimbusSansL-RegularCondensed", "NimbusSansL-RegularCondensed"
+@map font 27 to "NimbusSansL-RegularCondensedItalic", "NimbusSansL-RegularCondensedItalic"
+@map font 28 to "NimbusSansL-RegularItalic", "NimbusSansL-RegularItalic"
+@map font 29 to "StandardSymbolsL-Regular", "StandardSymbolsL-Regular"
+@map font 12 to "Symbol", "Symbol"
+@map font 2 to "Times-Bold", "Times-Bold"
+@map font 3 to "Times-BoldItalic", "Times-BoldItalic"
+@map font 1 to "Times-Italic", "Times-Italic"
+@map font 0 to "Times-Roman", "Times-Roman"
+@map font 35 to "URWBookmanL-DemiBold", "URWBookmanL-DemiBold"
+@map font 36 to "URWBookmanL-DemiBoldItalic", "URWBookmanL-DemiBoldItalic"
+@map font 37 to "URWBookmanL-Light", "URWBookmanL-Light"
+@map font 38 to "URWBookmanL-LightItalic", "URWBookmanL-LightItalic"
+@map font 39 to "URWChanceryL-MediumItalic", "URWChanceryL-MediumItalic"
+@map font 40 to "URWGothicL-Book", "URWGothicL-Book"
+@map font 41 to "URWGothicL-BookOblique", "URWGothicL-BookOblique"
+@map font 42 to "URWGothicL-Demi", "URWGothicL-Demi"
+@map font 43 to "URWGothicL-DemiOblique", "URWGothicL-DemiOblique"
+@map font 44 to "URWPalladioL-Bold", "URWPalladioL-Bold"
+@map font 45 to "URWPalladioL-BoldItalic", "URWPalladioL-BoldItalic"
+@map font 46 to "URWPalladioL-Italic", "URWPalladioL-Italic"
+@map font 47 to "URWPalladioL-Roman", "URWPalladioL-Roman"
+@map font 13 to "ZapfDingbats", "ZapfDingbats"
+@map color 0 to (255, 255, 255), "white"
+@map color 1 to (0, 0, 0), "black"
+@map color 2 to (255, 0, 0), "red"
+@map color 3 to (0, 255, 0), "green"
+@map color 4 to (0, 0, 255), "blue"
+@map color 5 to (255, 255, 0), "yellow"
+@map color 6 to (188, 143, 143), "brown"
+@map color 7 to (220, 220, 220), "grey"
+@map color 8 to (148, 0, 211), "violet"
+@map color 9 to (0, 255, 255), "cyan"
+@map color 10 to (255, 0, 255), "magenta"
+@map color 11 to (255, 165, 0), "orange"
+@map color 12 to (114, 33, 188), "indigo"
+@map color 13 to (103, 7, 72), "maroon"
+@map color 14 to (64, 224, 208), "turquoise"
+@map color 15 to (0, 139, 0), "green4"
+@reference date 0
+@date wrap off
+@date wrap year 1950
+@default linewidth 1.0
+@default linestyle 1
+@default color 1
+@default pattern 1
+@default font 0
+@default char size 1.000000
+@default symbol size 1.000000
+@default sformat "%.8g"
+@background color 0
+@page background fill on
+@timestamp off
+@timestamp 0.03, 0.03
+@timestamp color 1
+@timestamp rot 0
+@timestamp font 0
+@timestamp char size 1.000000
+@timestamp def "Mon Dec 16 16:07:30 2019"
+@r0 off
+@link r0 to g0
+@r0 type above
+@r0 linestyle 1
+@r0 linewidth 1.0
+@r0 color 1
+@r0 line 0, 0, 0, 0
+@r1 off
+@link r1 to g0
+@r1 type above
+@r1 linestyle 1
+@r1 linewidth 1.0
+@r1 color 1
+@r1 line 0, 0, 0, 0
+@r2 off
+@link r2 to g0
+@r2 type above
+@r2 linestyle 1
+@r2 linewidth 1.0
+@r2 color 1
+@r2 line 0, 0, 0, 0
+@r3 off
+@link r3 to g0
+@r3 type above
+@r3 linestyle 1
+@r3 linewidth 1.0
+@r3 color 1
+@r3 line 0, 0, 0, 0
+@r4 off
+@link r4 to g0
+@r4 type above
+@r4 linestyle 1
+@r4 linewidth 1.0
+@r4 color 1
+@r4 line 0, 0, 0, 0
+@g0 on
+@g0 hidden false
+@g0 type XY
+@g0 stacked false
+@g0 bar hgap 0.000000
+@g0 fixedpoint off
+@g0 fixedpoint type 0
+@g0 fixedpoint xy 0.000000, 0.000000
+@g0 fixedpoint format general general
+@g0 fixedpoint prec 6, 6
+@with g0
+@    world 0, 0, 80, 400
+@    stack world 0, 0, 0, 0
+@    znorm 1
+@    view 0.150000, 0.150000, 1.150000, 0.850000
+@    title "Alanine Dipeptide MD Temperature"
+@    title font 0
+@    title size 1.500000
+@    title color 1
+@    subtitle ""
+@    subtitle font 0
+@    subtitle size 1.000000
+@    subtitle color 1
+@    xaxes scale Normal
+@    yaxes scale Normal
+@    xaxes invert off
+@    yaxes invert off
+@    xaxis  on
+@    xaxis  type zero false
+@    xaxis  offset 0.000000 , 0.000000
+@    xaxis  bar on
+@    xaxis  bar color 1
+@    xaxis  bar linestyle 1
+@    xaxis  bar linewidth 1.0
+@    xaxis  label "Time (ps)"
+@    xaxis  label layout para
+@    xaxis  label place auto
+@    xaxis  label char size 1.000000
+@    xaxis  label font 0
+@    xaxis  label color 1
+@    xaxis  label place normal
+@    xaxis  tick on
+@    xaxis  tick major 20
+@    xaxis  tick minor ticks 1
+@    xaxis  tick default 6
+@    xaxis  tick place rounded true
+@    xaxis  tick in
+@    xaxis  tick major size 1.000000
+@    xaxis  tick major color 1
+@    xaxis  tick major linewidth 1.0
+@    xaxis  tick major linestyle 1
+@    xaxis  tick major grid off
+@    xaxis  tick minor color 1
+@    xaxis  tick minor linewidth 1.0
+@    xaxis  tick minor linestyle 1
+@    xaxis  tick minor grid off
+@    xaxis  tick minor size 0.500000
+@    xaxis  ticklabel on
+@    xaxis  ticklabel format general
+@    xaxis  ticklabel prec 5
+@    xaxis  ticklabel formula ""
+@    xaxis  ticklabel append ""
+@    xaxis  ticklabel prepend ""
+@    xaxis  ticklabel angle 0
+@    xaxis  ticklabel skip 0
+@    xaxis  ticklabel stagger 0
+@    xaxis  ticklabel place normal
+@    xaxis  ticklabel offset auto
+@    xaxis  ticklabel offset 0.000000 , 0.010000
+@    xaxis  ticklabel start type auto
+@    xaxis  ticklabel start 0.000000
+@    xaxis  ticklabel stop type auto
+@    xaxis  ticklabel stop 0.000000
+@    xaxis  ticklabel char size 1.000000
+@    xaxis  ticklabel font 0
+@    xaxis  ticklabel color 1
+@    xaxis  tick place both
+@    xaxis  tick spec type none
+@    yaxis  on
+@    yaxis  type zero false
+@    yaxis  offset 0.000000 , 0.000000
+@    yaxis  bar on
+@    yaxis  bar color 1
+@    yaxis  bar linestyle 1
+@    yaxis  bar linewidth 1.0
+@    yaxis  label "Temperature (K)"
+@    yaxis  label layout para
+@    yaxis  label place auto
+@    yaxis  label char size 1.000000
+@    yaxis  label font 0
+@    yaxis  label color 1
+@    yaxis  label place normal
+@    yaxis  tick on
+@    yaxis  tick major 100
+@    yaxis  tick minor ticks 1
+@    yaxis  tick default 6
+@    yaxis  tick place rounded true
+@    yaxis  tick in
+@    yaxis  tick major size 1.000000
+@    yaxis  tick major color 1
+@    yaxis  tick major linewidth 1.0
+@    yaxis  tick major linestyle 1
+@    yaxis  tick major grid off
+@    yaxis  tick minor color 1
+@    yaxis  tick minor linewidth 1.0
+@    yaxis  tick minor linestyle 1
+@    yaxis  tick minor grid off
+@    yaxis  tick minor size 0.500000
+@    yaxis  ticklabel on
+@    yaxis  ticklabel format general
+@    yaxis  ticklabel prec 5
+@    yaxis  ticklabel formula ""
+@    yaxis  ticklabel append ""
+@    yaxis  ticklabel prepend ""
+@    yaxis  ticklabel angle 0
+@    yaxis  ticklabel skip 0
+@    yaxis  ticklabel stagger 0
+@    yaxis  ticklabel place normal
+@    yaxis  ticklabel offset auto
+@    yaxis  ticklabel offset 0.000000 , 0.010000
+@    yaxis  ticklabel start type auto
+@    yaxis  ticklabel start 0.000000
+@    yaxis  ticklabel stop type auto
+@    yaxis  ticklabel stop 0.000000
+@    yaxis  ticklabel char size 1.000000
+@    yaxis  ticklabel font 0
+@    yaxis  ticklabel color 1
+@    yaxis  tick place both
+@    yaxis  tick spec type none
+@    altxaxis  off
+@    altyaxis  off
+@    legend on
+@    legend loctype view
+@    legend 0.85, 0.8
+@    legend box color 1
+@    legend box pattern 1
+@    legend box linewidth 1.0
+@    legend box linestyle 1
+@    legend box fill color 0
+@    legend box fill pattern 1
+@    legend font 0
+@    legend char size 1.000000
+@    legend color 1
+@    legend length 4
+@    legend vgap 1
+@    legend hgap 1
+@    legend invert false
+@    frame type 0
+@    frame linestyle 1
+@    frame linewidth 1.0
+@    frame color 1
+@    frame pattern 1
+@    frame background color 0
+@    frame background pattern 0
+@    s0 hidden false
+@    s0 type xy
+@    s0 symbol 0
+@    s0 symbol size 1.000000
+@    s0 symbol color 1
+@    s0 symbol pattern 1
+@    s0 symbol fill color 1
+@    s0 symbol fill pattern 0
+@    s0 symbol linewidth 1.0
+@    s0 symbol linestyle 1
+@    s0 symbol char 65
+@    s0 symbol char font 0
+@    s0 symbol skip 0
+@    s0 line type 1
+@    s0 line linestyle 1
+@    s0 line linewidth 1.0
+@    s0 line color 1
+@    s0 line pattern 1
+@    s0 baseline type 0
+@    s0 baseline off
+@    s0 dropline off
+@    s0 fill type 0
+@    s0 fill rule 0
+@    s0 fill color 1
+@    s0 fill pattern 1
+@    s0 avalue off
+@    s0 avalue type 2
+@    s0 avalue char size 1.000000
+@    s0 avalue font 0
+@    s0 avalue color 1
+@    s0 avalue rot 0
+@    s0 avalue format general
+@    s0 avalue prec 3
+@    s0 avalue prepend ""
+@    s0 avalue append ""
+@    s0 avalue offset 0.000000 , 0.000000
+@    s0 errorbar on
+@    s0 errorbar place both
+@    s0 errorbar color 1
+@    s0 errorbar pattern 1
+@    s0 errorbar size 1.000000
+@    s0 errorbar linewidth 1.0
+@    s0 errorbar linestyle 1
+@    s0 errorbar riser linewidth 1.0
+@    s0 errorbar riser linestyle 1
+@    s0 errorbar riser clip off
+@    s0 errorbar riser clip length 0.100000
+@    s0 comment "summary.TEMP"
+@    s0 legend  ""
+@target G0.S0
+@type xy
+0 0
+0.2 9.91
+0.4 12.3
+0.6 12.56
+0.8 15.21
+1 16.73
+1.2 18.56
+1.4 20.85
+1.6 24.58
+1.8 26.44
+2 29.1
+2.2 30.64
+2.4 34.28
+2.6 37.4
+2.8 40.47
+3 43.08
+3.2 46.74
+3.4 51.71
+3.6 54.63
+3.8 57.49
+4 59.96
+4.2 65.09
+4.4 67.05
+4.6 68.95
+4.8 73.73
+5 77.59
+5.2 78.31
+5.4 83.32
+5.6 84.28
+5.8 87.19
+6 93.13
+6.2 95.71
+6.4 101.02
+6.6 103.21
+6.8 103.78
+7 104.94
+7.2 112.18
+7.4 114.24
+7.6 119.11
+7.8 123.75
+8 120.14
+8.2 125.47
+8.4 127.39
+8.6 134.48
+8.8 138.45
+9 137.57
+9.2 144.45
+9.4 147.96
+9.6 147.84
+9.8 157.51
+10 161.32
+10.2 160.33
+10.4 162.64
+10.6 170.09
+10.8 167.57
+11 173.72
+11.2 188.58
+11.4 180.92
+11.6 188.85
+11.8 187.16
+12 196.08
+12.2 194.35
+12.4 198.38
+12.6 199.66
+12.8 195.9
+13 202.68
+13.2 215.35
+13.4 215.13
+13.6 210.78
+13.8 212.34
+14 221.5
+14.2 217.24
+14.4 221.96
+14.6 232.03
+14.8 231.2
+15 239.2
+15.2 238.26
+15.4 237.91
+15.6 246.25
+15.8 250.32
+16 257.27
+16.2 262.2
+16.4 257.31
+16.6 260.34
+16.8 275.17
+17 278.26
+17.2 277.26
+17.4 280.3
+17.6 280.44
+17.8 279.35
+18 288.41
+18.2 297.79
+18.4 287.95
+18.6 299.03
+18.8 287.78
+19 287.8
+19.2 289.72
+19.4 295.25
+19.6 305.07
+19.8 301.52
+20 301.11
+20.2 300.03
+20.4 308.2
+20.6 305.04
+20.8 300.39
+21 291.89
+21.2 299.79
+21.4 293.58
+21.6 283.59
+21.8 305.04
+22 300.45
+22.2 299.7
+22.4 292.13
+22.6 302.51
+22.8 309.62
+23 297.56
+23.2 299.18
+23.4 299.44
+23.6 305.09
+23.8 306.29
+24 296.13
+24.2 304.26
+24.4 299.59
+24.6 295.4
+24.8 301.24
+25 295.83
+25.2 305.54
+25.4 304.02
+25.6 302.47
+25.8 308.89
+26 307.45
+26.2 302.25
+26.4 304.97
+26.6 299.78
+26.8 302.22
+27 302.61
+27.2 300.42
+27.4 290.23
+27.6 296.53
+27.8 288.06
+28 294.77
+28.2 297.41
+28.4 312.15
+28.6 301.15
+28.8 292.81
+29 300.22
+29.2 299
+29.4 294.57
+29.6 301.84
+29.8 312.42
+30 305.47
+30.2 313.26
+30.4 291.66
+30.6 297.17
+30.8 299.4
+31 294.69
+31.2 291.79
+31.4 294.7
+31.6 301.16
+31.8 285.29
+32 302.7
+32.2 299.44
+32.4 285.89
+32.6 302.88
+32.8 295.89
+33 300.84
+33.2 304.19
+33.4 294.09
+33.6 298.53
+33.8 307.1
+34 305.93
+34.2 293.72
+34.4 297.96
+34.6 293.7
+34.8 294.76
+35 293.62
+35.2 294.73
+35.4 296.59
+35.6 295.33
+35.8 298.33
+36 303.42
+36.2 306.57
+36.4 297.51
+36.6 299.94
+36.8 304.7
+37 308
+37.2 306
+37.4 306.44
+37.6 294.09
+37.8 294.43
+38 302.78
+38.2 295.77
+38.4 302.19
+38.6 297.41
+38.8 297.8
+39 305.13
+39.2 299.16
+39.4 298.89
+39.6 289.12
+39.8 299.18
+40 308.33
+40.2 309.09
+40.4 289.83
+40.6 298.74
+40.8 296.17
+41 309.21
+41.2 296.04
+41.4 299.2
+41.6 305.28
+41.8 300.86
+42 300.01
+42.2 287.43
+42.4 299.91
+42.6 291.92
+42.8 308.92
+43 297.54
+43.2 299.02
+43.4 306.19
+43.6 307.32
+43.8 296.79
+44 291.18
+44.2 299.22
+44.4 296.13
+44.6 302.07
+44.8 291.99
+45 301.42
+45.2 318.43
+45.4 303.23
+45.6 292.95
+45.8 296.29
+46 287.61
+46.2 292.08
+46.4 291.75
+46.6 303.29
+46.8 294.16
+47 299.88
+47.2 307.16
+47.4 298.6
+47.6 300.34
+47.8 295.26
+48 297.26
+48.2 301.23
+48.4 297.07
+48.6 303.01
+48.8 309.87
+49 293.56
+49.2 306.29
+49.4 301
+49.6 292.04
+49.8 300.95
+50 310.81
+50.2 300.87
+50.4 311.79
+50.6 313.32
+50.8 299.9
+51 309.96
+51.2 303.84
+51.4 302.47
+51.6 294.31
+51.8 302
+52 299.97
+52.2 291.47
+52.4 293.66
+52.6 291.1
+52.8 311.5
+53 314.89
+53.2 293.17
+53.4 309.17
+53.6 301.04
+53.8 289.4
+54 295.95
+54.2 287.81
+54.4 294.92
+54.6 285.01
+54.8 300.08
+55 306.76
+55.2 300.63
+55.4 305.04
+55.6 297.76
+55.8 295.02
+56 298.2
+56.2 297.88
+56.4 300.56
+56.6 296.88
+56.8 282.21
+57 282.19
+57.2 293.62
+57.4 303.06
+57.6 297
+57.8 302.99
+58 300.4
+58.2 311.99
+58.4 308.18
+58.6 298
+58.8 301.19
+59 299.93
+59.2 293.8
+59.4 295.43
+59.6 293.42
+59.8 302.27
+60 303.88
+60.2 297.78
+60.4 313.65
+60.6 297.04
+60.8 303.21
+61 307.06
+61.2 302.61
+61.4 297.1
+61.6 298.19
+61.8 310.06
+62 303.2
+62.2 307.38
+62.4 302.91
+62.6 303.61
+62.8 310.22
+63 299.3
+63.2 307.24
+63.4 301.83
+63.6 296.69
+63.8 305.71
+64 294.15
+64.2 298.2
+64.4 307.78
+64.6 294.64
+64.8 296.25
+65 310.38
+65.2 297.96
+65.4 302.11
+65.6 316.91
+65.8 301.8
+66 307.1
+66.2 299.07
+66.4 293.47
+66.6 293.26
+66.8 288.05
+67 298.07
+67.2 313.5
+67.4 302.01
+67.6 299.19
+67.8 294.2
+68 302.55
+68.2 304.44
+68.4 301.4
+68.6 307.25
+68.8 304.32
+69 296.15
+69.2 295.75
+69.4 305.46
+69.6 296.73
+69.8 305.83
+70 301.2
+70.2 295.52
+70.4 303.02
+70.6 306.51
+70.8 302.15
+71 303.61
+71.2 306.31
+71.4 293.12
+71.6 296.57
+71.8 296.47
+72 302.05
+72.2 294.88
+72.4 286.3
+72.6 299.82
+72.8 300.12
+73 296.04
+73.2 296.05
+73.4 293.41
+73.6 296.02
+73.8 290.9
+74 296.16
+74.2 286.96
+74.4 303.18
+74.6 304.41
+74.8 297.66
+75 302
+75.2 295.61
+75.4 293.91
+75.6 286.28
+75.8 302.15
+76 316.88
+76.2 300.73
+76.4 316.23
+76.6 297.09
+76.8 311.93
+77 299.14
+77.2 308.75
+77.4 298
+77.6 299.86
+77.8 293.34
+78 306.56
+78.2 309.33
+78.4 290.13
+78.6 297.68
+78.8 301.02
+79 307.86
+79.2 308.1
+79.4 303.21
+79.6 303.38
+79.8 294.24
+80 289.88
+&
